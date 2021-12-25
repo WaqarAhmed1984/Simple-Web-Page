@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.showcase {
+    background-image: url(./beachshowcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #926239;
+    font-weight: bold;
+}
+
+.showcase p{
+    font-size: 20px;
+    color: #926239;
+}
+
+.showcase a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  
+}
+
+.showcase a:hover {
+    background-color: #926239;
+    color: white;
+    border: 0;
+}
+
+.section-a {
+    background-color: #926239;
+    color: white;
+    height: 250px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.4;
+
+}
+
+.section-b {
+    background-color: white;
+    color: #926239;
+    height: 250px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.4;
+
+}
+
+.section-c {
+    display: flex;
+    justify-content: center;
+}
+
+.box-1 {
+    padding: 10px;
+    font-size: 19px;
+
+    background-color:#926239 ;
+    color: white;
+    text-align: center;
+}
+.box-2 {
+    padding: 10px;
+    font-size: 19px;
+    background-color:white;
+    color: #926239;
+    text-align: center;
+}
+.box-3 {
+    padding: 10px;
+    font-size: 19px;
+
+    background-color:#926239 ;
+    color: white;
+    text-align: center;
+}
